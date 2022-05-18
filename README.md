@@ -18,7 +18,7 @@ Javascript:
 
 # The following libraries are included in this package:
 
-Javascript:
+Javascript (lib folder):
 - Buscadores
 - Estadisticas
 - Filtros
