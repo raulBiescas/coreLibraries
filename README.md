@@ -1,5 +1,5 @@
 # coreLibraries
-Core Libraries (Javascript, PHP and CSS styles) to be used by rest of repositoriesConfig files should be modified to include these libraries path.
+Core Libraries (Javascript, PHP and CSS styles) to be used by rest of repositories. Config files should be modified to include these libraries path.
 
 # Required libraries to be added to the library folders are:
 
