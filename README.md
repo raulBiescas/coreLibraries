@@ -16,6 +16,10 @@ Javascript:
 - Chart.js Version: 2.7.2
 - Milkchart.yc Brett Dixon
 
+PHP:
+- PHPMailer_v5.1
+- SimpleImage by Simon Jarvis
+
 # The following libraries are included in this package:
 
 Javascript (lib folder):
@@ -37,3 +41,32 @@ Javascript (lib folder):
 - Pictures
 - Tablas
 - TablasDiv
+
+PHP (phpLib folder):
+- ActualizarDatos
+- Books
+- BorrarDatos
+- Calendar
+- CrearDocumento
+- csvExport
+- Estadisticas
+- Etiquetas
+- Filtros
+- Formularios
+- Funciones
+- FuncionesFecha
+- FuncionesRepresentacion
+- GIS
+- Graficas
+- Historia
+- Images
+- LineaTiempos
+- Mapas
+- Niveles
+- Pictures
+- RemoteConnection
+- Sql
+- Tablas
+- TablasDiv
+- UpdateEtiquetas
+- Utils
