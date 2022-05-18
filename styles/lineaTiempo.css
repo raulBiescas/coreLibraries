@@ -1,0 +1,123 @@
+.bloqueAño
+{
+height: 84px;
+width: 94%;
+margin:5px 3% 5px 3%;
+clear:both;
+position:relative;
+}
+
+.tituloAño
+{
+position:absolute;
+width:8%;
+height: 24px;
+top:50px;
+left:0px;
+text-align: center;
+vertical-align: center;	
+font-size:16px;
+color:#3787DE;
+	}
+	
+.bloqueTiempos
+{
+position:absolute;
+width:88%;
+height: 84px;
+top:0px;
+left:12%;
+text-align: center;
+vertical-align: center;	
+	}
+
+.lineaMomentos
+{
+position:absolute;
+height:50px;
+width:100%;
+top:0px;
+left:0px;
+	}
+
+.lineaPeriodos
+{
+position:absolute;
+height:24px;
+width:100%;
+top:50px;
+left:0px;	
+background-color: #ccc;
+border: solid 1px black;
+	}
+	
+.momento
+{
+position:absolute;
+text-align: left;
+font-size: 13px;
+padding-top:1px;
+	}
+	
+.momento a
+{
+z-index:2;	
+	}
+	
+.iconoMomento
+{position:absolute;
+left:-18px;
+background-position: top left;
+top:0px;
+z-index:1;
+width:18px;
+height:16px;
+}
+
+.EndDate .iconoMomento
+{
+background: url(images/end.png) no-repeat left top;
+}
+
+.Notice .iconoMomento
+{
+background: url(images/telephone.png) no-repeat left top;
+}
+
+.periodo
+{
+position:absolute;
+top:0px;
+height: 20px;
+border-left: dashed 1px black;
+text-align: center;
+font-size: 15px;
+padding-top: 3px;
+overflow:visible;
+	}
+
+.union
+{
+position:absolute;
+top:17px;
+left:0px;
+height:33px;
+width:2px;
+border-left:solid 1px black;
+}
+
+.monthBar
+{
+float:left;
+width: 8%;
+text-align:center;
+font-size:10px;
+color: #339933;
+padding-top:5px;
+}
+
+.adjustMonths
+{
+float:left;
+width: 2%;
+}

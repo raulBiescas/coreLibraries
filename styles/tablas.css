@@ -1,0 +1,201 @@
+.resultadoActualizado
+{
+background-color:#CCCCFF;	
+	}
+
+.tablaContainer
+{
+margin:10px auto 10px auto;	
+text-align:center;
+min-width:300px;
+	}
+
+.tablaContainer table
+{
+margin:0 auto;	
+text-align: left;
+	}
+
+.tablaContainer .columnaControles
+{display:none;}
+
+.tablaContainer  .celdaMensaje
+{
+  	font-size: 12px;
+  	color: #0000ff;
+}
+
+.tablaContainer  .ok
+{
+  	background-color: #ddddff;
+}
+
+.tablaContainer  .error
+{
+  	background-color: #cc0000;
+}
+
+
+
+.tablaContainer .table-th-sort
+{
+padding:0 24px 0 24px;
+background:url(images/abajo.gif) no-repeat 4px center;
+font-weight: bold;
+color: #2777EE;
+	}
+	
+.tablaContainer .table-th-sort-rev
+{
+padding:0 24px 0 24px;
+background:url(images/arriba.gif) no-repeat 4px center;
+color: #2777EE;
+	}
+
+.tablaContainer tr.hoverOn 
+{background-color: #fafafa;}
+
+.tablaContainer table {border-collapse: collapse;
+border: 2px solid #333333;
+font-size:1em;
+background: #fff;}
+
+.tablaContainer td, th {border: 1px dotted #333333;
+padding: .5em;}
+
+/* =links
+----------------------------------------------- */
+
+.tablaContainer table a {
+font-weight: bold;
+}
+
+
+/* =head =foot
+----------------------------------------------- */
+
+.tablaContainer thead
+{
+background-color: #ccc;
+	}
+
+.tablaContainer thead th, tfoot th {border: 1px dotted #333333;
+text-align: left;
+font-size: 1.1em;
+color: #3787DE;
+font-weight: bold;
+cursor:pointer; 
+}
+
+.tablaContainer tfoot td {border: 2px solid #000;}
+
+/* =body
+----------------------------------------------- */
+
+.tablaContainer tbody th, tbody td {vertical-align: top;
+text-align: left;
+font-size: 1em;
+}
+
+.tablaContainer tbody th {white-space: nowrap;}
+
+
+.tablaContainer tbody tr:hover {background: #fafafa;}
+
+
+.tablaPeque
+{
+	}
+
+.tablaPeque table
+{
+margin:0 auto;	
+text-align: left;
+	}
+
+.tablaPeque .columnaControles
+{display:none;}
+
+.tablaPeque  .celdaMensaje
+{
+  	font-size: 11px;
+  	color: #0000ff;
+}
+
+.tablaPeque  .ok
+{
+  	background-color: #ddddff;
+}
+
+.tablaPeque  .error
+{
+  	background-color: #cc0000;
+}
+
+
+
+.tablaPeque .table-th-sort
+{
+padding:0 24px 0 24px;
+background:url(images/abajo.gif) no-repeat 4px center;
+font-weight: bold;
+color: #2777EE;
+	}
+	
+.tablaPeque .table-th-sort-rev
+{
+padding:0 24px 0 24px;
+background:url(images/arriba.gif) no-repeat 4px center;
+color: #2777EE;
+	}
+
+.tablaPeque tr.hoverOn 
+{background-color: #fafafa;}
+
+.tablaPeque table {
+border-collapse: collapse;
+border: 1px solid #333333;
+font-size:11px;
+background: #fff;}
+
+.tablaPeque td, th {border: 1px dotted #333333;
+padding: 1px;}
+
+/* =links
+----------------------------------------------- */
+
+.tablaPeque table a {
+font-weight: bold;
+}
+
+
+/* =head =foot
+----------------------------------------------- */
+
+.tablaPeque thead
+{
+background-color: #ccc;
+	}
+
+.tablaPeque thead th, tfoot th {border: 1px dotted #333333;
+text-align: left;
+font-size: 12px;
+color: #3787DE;
+font-weight: bold;
+cursor:pointer; 
+}
+
+.tablaPeque tfoot td {border: 1px solid #000;}
+
+/* =body
+----------------------------------------------- */
+
+.tablaPeque tbody th, tbody td {vertical-align: top;
+text-align: left;
+font-size: 12px;
+}
+
+.tablaPeque tbody th {white-space: nowrap;}
+
+
+.tablaPeque tbody tr:hover {background: #fafafa;}

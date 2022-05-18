@@ -1,0 +1,478 @@
+.cabeceraHistoria
+{
+position:relative;
+margin-bottom: 10px;
+border: 1px solid #66A;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-top:5px;
+}
+
+.cabeceraHistoria input
+{
+width: 90%!important;
+}
+
+.bloqueHistoria
+{
+position: relative;
+width:100%;
+margin-bottom: 10px;
+border: 1px solid #66A;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.superiorHistoria
+{
+width: 100%;
+background-color: #AAF;
+}
+
+.ChaptersBlock .superiorHistoria
+{
+background-color: #FFCC66;
+color:navy;
+}
+
+
+.medioHistoria
+{
+position:relative;
+width: 100%;
+background-color: #BBF;
+}
+
+.ChaptersBlock .medioHistoria
+{
+background-color: #FFFF99;
+}
+
+
+.medioHistoria .botonAdd
+{
+top:2px!important;
+}
+
+.superiorHistoria .tituloHistoria
+{
+width:80%;
+float: left;
+font-weight: bold;
+font-size: 13px;
+line-height:20px;
+}
+
+.superiorHistoria .fechaHistoria
+{
+width: 15%;
+float: left;
+padding-left:1%;
+padding-right:2%;
+font-size: 10px;
+color: #555;
+}
+
+.superiorHistoria .indexChapter
+{
+padding:1px 10px;
+color: navy;
+font-size: 12px;
+}
+
+
+.medioHistoria .botonesMostrar
+{
+margin-left:1%;
+width: 10%;
+float: left;
+}
+
+.tagsHistoria
+{
+width: 50%;
+float: left;
+}
+
+.tagsHistoria .lineaEtiquetas
+{
+margin:0px!important;
+padding-left:18px;
+background: url(images/tag_blue.png) no-repeat left center;
+min-height:20px;
+}
+
+.tagsHistoria .lineaEtiquetas label
+{
+width:0px!important;
+}
+
+.tagsHistoria .lineaEtiquetas .grupoInputs
+{
+padding:0px!important;
+margin:0px!important;
+}
+
+.medioHistoria .numFiles
+{
+margin-left:1%;
+width: 18%;
+float: left;
+}
+
+.fondoNumFiles
+{
+padding-left:20px;
+height:20px;
+background: url(images/attach.png) no-repeat left center;
+}
+
+.fondoNumPictures
+{
+padding-left:20px;
+height:20px;
+background: url(images/camera.png) no-repeat left center;
+}
+
+.medioHistoria .numPictures
+{
+margin-left:1%;
+width: 18%;
+float: left;
+}
+
+.inferiorHistoria
+{
+min-height:20px;
+display:none;
+}
+
+.thumbGalleryHistory
+{
+overflow-x:auto;
+overflow-y:hidden;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.thumbGalleryHistory .thumbGalleryItem
+{
+margin-left:5px!important;
+}
+
+.botonOcultar
+{
+width:16px;
+height:16px;
+background: url(images/arrow_top.png) no-repeat left top;
+cursor:pointer;
+}
+
+.botonMostrar
+{
+width:16px;
+height:16px;
+background: url(images/arrow_bottom.png) no-repeat left top;
+cursor:pointer;
+}
+.textoHistoria
+{
+display:inline;
+}
+
+.textoHistoria .lineaInputs
+{
+display:inline!important;
+}
+
+.textoHistoria .grupoInputs
+{
+display:inline!important;
+}
+
+.textoHistoria .datos
+{
+width:auto!important;
+}
+
+.lineaNFicheroHistoria
+{
+text-align:center;
+text-decoration:underline;
+width:100%;
+margin-top:2px;
+margin-bottom: 2px;
+color:#88F;
+}
+
+.ficherosHistoria
+{
+float:right;
+width:150px;
+border-left: 1px dashed #66A;
+border-bottom: 1px dashed #66A;
+background-color: #eee;
+z-index:11;
+}
+
+
+
+.nuevoFicheroHistoria
+{
+cursor:pointer;
+}
+
+#contractHistory .areaNuevoFichero
+{
+left:auto;
+right:5%;
+width: 300px;
+}
+
+
+.ficherosHistoria .lineaFichero
+{
+margin: 3px 3px 6px 3px!important;
+padding:0px 0px 0px 0px!important;
+min-height:25px!important;
+	}
+
+.ficherosHistoria .tipoFichero
+{
+padding-left: 25px!important;	
+min-height:24px!important;
+	}
+
+.ficherosHistoria .fechaFichero
+{
+display:none!important;
+}
+	
+.ficherosHistoria .pdf
+{
+	background: url(images/pdf.png) no-repeat left top!important;
+	}
+	
+.ficherosHistoria .doc
+{
+	background: url(images/doc.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .docx
+{
+	background: url(images/doc.png) no-repeat left top!important;
+	}	
+	
+.ficherosHistoria .jpg
+{
+	background: url(images/jpg.png) no-repeat left top!important;
+	}
+	
+.ficherosHistoria .png
+{
+	background: url(images/png.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .rar
+{
+	background: url(images/rar.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .txt
+{
+	background: url(images/txt.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .xls
+{
+	background: url(images/xls.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .xlsx
+{
+	background: url(images/xlsx.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .zip
+{
+	background: url(images/zip.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .msg
+{
+	background: url(images/msg.png) no-repeat left top!important;
+	}
+
+.ficherosHistoria .tituloFichero
+{
+font-size:11px!important;	
+	}	
+
+
+.ficherosHistoria .tagsFichero
+{
+padding-left:10px!important;
+	}
+
+.ampliacionHistoria
+{
+position:relative;
+width:100%;
+height:100%;
+}	
+
+.cabeceraAmpliacionHistoria
+{
+position:absolute;
+width:100%;
+height:60px;
+overflow:hidden;
+top:20px;
+left:0px;
+font-size:14px;
+font-weight:bold;
+line-height:22px;
+color:white;
+}
+
+.cabeceraAmpliacionHistoria .tagsHistoria
+{
+margin-left:20px;
+width:auto!important;
+float:left;
+padding:2px;
+border:1px solid #BBF;
+}
+
+.cabeceraAmpliacionHistoria .numFiles
+{
+margin-left:20px;
+width:auto!important;
+float:left;
+padding:2px 5px;
+}
+
+.cabeceraAmpliacionHistoria .numFiles .fondoNumFiles
+{
+background: url(images/attachWhite.png) no-repeat left center;
+}
+
+
+.cabeceraAmpliacionHistoria .numPictures
+{
+margin-left:20px;
+width:auto!important;
+padding:2px;
+float:left;
+}
+
+
+.cuerpoAmpliacionHistoria
+{
+position:absolute;
+width:96%;
+bottom:31%;
+top:90px;
+left:2%;
+overflow:auto;
+color:#ccc;
+border-top:1px solid #ccc;
+}
+
+.cuerpoAmpliacionHistoria .ficherosHistoria
+{
+border-color:#ccc!important;
+background-color:black!important;
+}
+
+.fotosAmpliacionHistoria
+{
+position:absolute;
+width:100%;
+height:25%;
+overflow:hidden;
+bottom:5%;
+left:0px;
+}
+
+.areaFotosAmpliacion
+{
+height:100%;
+width:100%;
+}
+
+.thumbAreaAmpliacion img
+{
+height:100%!important;
+}
+
+.navegacionAmpliacionHistoria
+{
+position:absolute;
+width:100%;
+height:4%;
+overflow:hidden;
+bottom:0px;
+left:0px;
+}
+
+.navegacionAmpliacionHistoria .navegacionLeft
+{
+text-align:left;
+left:5%;
+}
+
+.navegacionAmpliacionHistoria .navegacionRight
+{
+text-align:right;
+left:55%;
+}
+
+.navegacionAmpliacionHistoria .itemNavegacionHistoria
+{
+position:absolute;
+width:40%;
+vertical-align:center;
+height:100%;
+top:0px;
+cursor:pointer;
+overflow:hidden;
+font-size:14px;
+font-weight:bold;
+line-height:22px;
+color:white;
+}
+.navegacionAmpliacionHistoria .itemNavegacionHistoria:hover
+{
+color:yellow;
+}
+
+.elementoCabeceraAmpliacion
+{
+float:left;
+margin-left:20px;
+}
+
+.bookIcon
+{
+position:absolute;
+width:16px;
+height:16px;
+top:5px;
+left:5px;
+background: url(images/book.png) no-repeat;
+z-index:25;
+}
+
+.ampliacionTotalHistoria
+{
+position:absolute;
+width:16px;
+height:16px;
+top:5px;
+right:5px;
+background: url(images/zoom.png) no-repeat;
+cursor:pointer;
+z-index:25;
+}
+	

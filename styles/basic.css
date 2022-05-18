@@ -1,0 +1,717 @@
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+/*table{border-collapse:collapse;border-spacing:0;}*/
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+
+
+html, body {
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0px 0 0 0;
+	font: normal small Helvetica, Arial, sans-serif;
+	color: #6B6B6B;
+	background-color: white;
+	overflow:hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #3787DE;
+}
+
+h1, h2, h3 {
+}
+
+h4, h5, h6 {
+}
+
+p, ul, ol, blockquote {
+	margin-top: 0;
+	line-height: 160%;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: #3787DE;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #990000;
+}
+
+img {
+	border: none;
+}
+
+strong
+{font-weight:bold;}
+
+em
+{font-style:italic;	}
+
+
+
+.trainingInTitle
+{
+position:absolute;
+top:1px;
+right:150px;
+width:50px;
+height:50px;
+background: url(images/trainingCourse.png) no-repeat;
+}
+
+#titulo
+{
+position:absolute;
+bottom: 35px;
+left:240px;
+padding: 0px 20px 0px 20px;
+color: #656B77;
+font-family: tahoma;
+font-size: 17px;
+}
+
+#editSpace
+{
+position:absolute;
+right:10px;
+top:25px;
+text-decoration:underline;
+color: #3787DE;
+cursor:pointer;
+}
+
+#tituloDchaSpace
+{
+position:absolute;
+right:10px;
+top:-20px;
+background-color:white;
+color: #37BC55;
+height:18px;
+padding:2px;
+}
+
+
+#tituloDchaSpace a
+{
+color: #37BC55;
+cursor:pointer;
+}
+
+/*General*/
+.boton
+{cursor:pointer;}
+
+/*
+.botonOcultar
+{
+display:none;
+}
+*/
+
+.miTip
+{
+z-index:10001;	
+}
+
+.tip-title
+{
+font-size: 1.4em;
+color: white;
+background-color: black;
+padding:1px 3px 1px 3px;
+	}
+
+
+.mensaje
+{
+	margin-left:15%;
+	margin-top:5px;
+	padding:5px;
+	width: 70%;
+  	border: 1px solid #0000ee;
+  	background-color: #ddddff;
+  	font-size: 15px;
+  	color: #0000ff;
+	text-align:center;
+}
+
+.oculto
+{
+display:none!important;
+}
+
+.clear
+{clear:both;}
+
+.overflow
+{
+overflow:auto!important;
+}
+
+.mitad
+{
+width:49%;
+height:100%;
+float:left;
+overflow:auto;
+}
+
+.mitadAlturaAuto
+{
+width:49%;
+float:left;
+overflow:auto;
+}
+
+.bloqueMitad
+{
+width:49%;
+float:left;
+}
+
+.separacionMitad
+{
+float:left;
+width:1px;
+height:100%;
+background-color:white;
+}
+
+.flotante
+{
+float:left;
+}
+
+.unMedio
+{
+width:50%;
+float:left;
+}
+
+.dosTercios
+{
+width:66%;
+float:left;
+}
+
+.unTercio
+{
+width:33%;
+float:left;
+}
+
+.titulo1
+{
+width:80%;
+margin-left:10%;
+color: #01A9DB;    
+font-size:13px;
+line-height:18px;
+text-align: center;
+font-weight:bold;
+position:relative;
+}
+
+.titulo2
+{
+width:80%;
+margin-left:10%;
+background-color:#eef;
+color: #01A9DB;    
+font-size:12px;
+line-height:18px;
+text-align: center;
+position:relative;
+}
+
+.textoFormateado {
+	text-align:justify;
+	font-size:12px;
+	line-height:16px;
+	padding-left: 5px;
+}
+
+.textoFormateado ul
+{
+	margin: 3px 0px 3px 0px;}
+
+.textoFormateado ol
+{margin: 3px 0px 3px 0px;}
+
+.textoFormateado ul li {
+	list-style: disc inside;
+}
+
+.textoFormateado ol li {
+	list-style: decimal inside;
+}
+
+.textoFormateado li
+{
+	padding-left: 10px;
+	line-height: 110%;
+	}
+
+.textoFormateado p
+{margin-bottom: 5px;
+line-height: 140%;
+padding-left:5px;}
+
+.tag
+{
+padding:2px 5px;
+background-color:#444;
+color: #99CCFF;
+font-size:11px;
+margin-left:5px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.med
+{
+font-size:12px!important;
+}
+
+.max
+{
+font-size:13px!important;
+}
+
+.nuevas .tag
+{
+cursor:pointer;
+background-color:#222;
+color: #77AADD;
+}
+
+.existentes .tag
+{
+cursor:pointer;
+background-color:#FFAAAA;
+color: #1767DE;
+}
+
+/*
+.actuales
+{
+line-height:20px;
+background: url(images/tag_blue.png) no-repeat;
+padding-left:20px;
+}
+
+
+.nuevas
+{
+line-height:20px;
+background: url(images/tag_blue.png) no-repeat;
+padding-left:20px;
+margin-bottom:2px;
+}
+*/
+.existentes
+{
+line-height:20px;
+background: url(images/tag_blue_add.png) no-repeat;
+padding-left:20px;
+margin-top:2px;
+}
+
+.loading
+{
+width:52px;
+height:16px;
+margin:auto;
+margin-top:30px;
+background: url(images/ajax-loader.gif) no-repeat center top;
+padding-top:40px;
+font-size:14px;
+text-align:center;
+}
+
+.popUpWindow
+{
+position:absolute;
+top:0px;
+bottom:0px;
+width:100%;
+height:100%;
+background-color:black;
+opacity:0.6;
+filter:alpha(opacity=60); /* For IE8 and earlier */
+z-index:3000;
+}
+
+.popUpContent
+{
+position:absolute;
+top:7%;
+left:7%;
+width:85%;
+height:85%;
+color:white;
+background-color:black;
+border: 3px solid white;
+z-index:3001;
+}
+
+.popUpContent .botonLink
+{
+color:yellow!important;
+}
+
+.popUpClose
+{
+position:absolute;
+top:8%;
+right:8%;
+padding-left:3px;
+width:13px;
+height:16px;
+z-index:3002;
+color:white;
+font-size:14px;
+font-weight:bold;
+border: 2px solid white;
+-moz-border-radius: 9px;
+border-radius: 9px;
+cursor:pointer;
+}
+
+.tituloPopup
+{
+margin-top:10px;
+width:80%;
+margin-left:10%;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+}
+
+.bloquePopup
+{
+margin-top:10px;
+width:80%;
+margin-left:10%;
+color:white;
+font-size:13px;
+}
+
+.cabeceraPopup
+{
+position:absolute;
+height:9%;
+top:1%;
+left:3%;
+width:94%;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+}
+
+.cuerpoPopup
+{
+position:absolute;
+height:88%;
+top:11%;
+left:3%;
+width:94%;
+}
+
+.popUpClose:hover
+{
+color:yellow;
+border: 2px solid yellow;
+}
+
+.teamIcon
+{
+padding-left:20px;
+background: url(images/team.png) no-repeat left center;
+}
+
+.calendarIcon
+{
+padding-left:20px;
+background: url(images/calendar.png) no-repeat left center;
+}
+
+.mailIcon
+{
+padding-left:20px;
+background: url(images/email.png) no-repeat left center;
+}
+
+.letraPeque
+{
+font-size:9px!important;
+}
+
+.botonStatus
+{
+width:10px;
+height:25px;
+background: url(images/status.jpg) no-repeat left center;
+}
+
+.botonInformation
+{
+width:16px;
+height:16px;
+background: url(images/information.png) no-repeat left center;
+}
+
+.botonChart
+{
+width:16px;
+height:16px;
+background: url(images/chart.png) no-repeat left center;
+}
+
+.botonTools
+{
+width:16px;
+height:16px;
+background: url(images/wrench.png) no-repeat left center;
+}
+
+.botonesJuntosLeft
+{
+margin-left:3px;
+float:left;
+}
+
+.botonesJuntosRight
+{
+margin-right:3px;
+float:right;
+}
+
+.listaOpciones
+{
+padding-left:20px;
+margin-top:5px;
+margin-bottom:10px;
+cursor:pointer;
+}
+
+.listaOpciones:hover
+{
+font-weight:bold;
+}
+
+.bloqueBasico
+{
+margin-top:10px;
+width:97%;
+margin-left:1%;
+border:1px solid #999;
+padding:1px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+
+.bloqueBasico.bloqueBasicoPopup
+{
+border:1px solid white;
+}
+
+#cuadroInfo
+{
+position:absolute;
+padding:5px;
+width:100px;
+height:60px;
+line-height:14px;
+font-size:11px;
+background-color:black;
+border:1px solid yellow;
+color:white;
+z-index:15000;
+}
+
+#cuadroInfo a
+{
+color:yellow;
+}
+
+#cuadroInfo .botonLink
+{
+color:yellow;
+}
+
+.cuadroInfoBlanco
+{
+width:80%!important;
+height:90%!important;
+background-color:#ddd;
+top:5%!important;
+left:5%!important;
+color:#333;
+}
+
+.cuadroInfoBlanco a
+{
+color:navy!important;
+}
+
+
+.topRight
+{
+position:absolute;
+top:2px;
+right:2px;
+}
+
+.bottomRight
+{
+position:absolute;
+bottom:2px;
+right:2px;
+}
+
+.bottomLeft
+{
+position:absolute;
+bottom:2px;
+left:2px;
+}
+
+.topLeft
+{
+position:absolute;
+top:2px;
+left:2px;
+}
+
+.reducedFont
+{
+font-size:0.8em!important;
+}
+
+.OKicon
+{
+background: url(images/KnobGreen.png) no-repeat;
+}
+
+.failureIcon
+{
+background: url(images/KnobRed.png) no-repeat;
+}
+
+.failureLine
+{
+background-color:#bb6666;
+color:white;
+padding:5px;
+}
+
+.repairIcon
+{
+background: url(images/wrench.png) no-repeat;
+}
+
+.warningIcon
+{
+background: url(images/knobWarning.png) no-repeat;
+}
+
+.warningLine
+{
+background-color:#bbbb77;
+color:navy;
+padding:5px;
+}
+
+.inlineIcon
+{
+float:left;
+margin-left:10px;
+width:20px;
+height:20px;
+}
+
+
+/*
+@media print
+{
+	html, body {
+	height: auto!important; 
+	overflow:visible!important;
+	}
+	
+	body 
+	{ 
+	background: white!important; 
+	font-size: 12pt!important;
+	font: normal small "Times New Roman", Times, Georgia, serif!important;
+	}
+	
+	#principal
+	{
+	position:relative!important;
+	width:auto!important;
+	height:auto!important;
+	}
+	
+	#barraTitulo
+	{
+	position:relative!important;
+	}
+	
+	#content
+	{
+	position:relative!important;
+	width:auto!important;
+	height:auto!important;
+	top:10px!important;
+	bottom:auto!important;
+	overflow:visible!important;
+	}
+	
+	#workingArea
+	{
+	width:95%!important;
+	left:2%!important;
+	height:auto!important;
+	}
+	
+	#leftSide,#editSpace,#barraSuperior
+	{
+	display:none!important;
+	}
+	
+	.funcionesTabla
+	{
+	display:none!important;
+	}
+	
+	.lineaDatos
+	{
+	background-color:white!important;
+	}
+	
+}*/

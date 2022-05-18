@@ -1,0 +1,611 @@
+.showOnEdit
+{
+	display:none;
+	}
+
+.datepicker_dashboard .days .day 
+{
+font-size:11px!important;
+display: table-cell!important;
+float: none!important;
+}	
+
+
+.grupoInputs {
+    padding-left:5px;
+	line-height: 16px;
+    /*float:left; */
+}
+
+.lineaInputs
+{
+margin-bottom:10px;	
+position:relative;
+	}
+
+input select
+{
+margin-right:5px;
+margin-left:5px;	
+-moz-border-radius: 3px;
+border-radius: 3px;
+margin-top: 3px;
+padding: 1px;
+border: 1px solid #000000;
+	}
+
+input[type="text"]
+{
+width:110px;
+font-size:12px;
+	}	
+
+	
+/*.edicionPermitida
+{
+background-color: #CCFF66 !important;
+	}
+	
+.bordeEdicion
+{
+	border: 1px solid #CCFF66 !important;
+}*/
+
+.edicionVacio
+{
+/*background-color: #CCFF66;*/
+padding:0px 10px;
+	}
+	
+.controlesFormulario
+{
+/*width:96%;
+margin-right:2%;*/
+position:absolute;
+top:2px;
+right:2px;
+width:40px;
+height:16px;
+z-index:10;
+	}
+
+.controlFormulario
+{
+float:left;
+margin-right:3px;
+}
+
+.boton
+{
+cursor:pointer;
+z-index:10;
+}
+	
+.controlesIniciales
+{
+display: none;	
+width:38px;
+z-index:10;
+	}
+
+.controlesFinales
+{
+display: none;	
+width:38px;
+z-index:10;
+	}
+
+.separados
+{
+padding-left:1px;
+}
+	
+input:hover, textarea:hover, input:focus, textarea:focus {
+  background-color: #ddffdd;
+}
+
+.botonAdd
+{
+position:absolute;
+right:10px;
+top:6px;
+width: 16px;
+height: 16px;
+background: url(images/add.png) no-repeat left top;
+cursor:pointer;
+z-index:10;
+}
+
+.addReference
+{
+width: 16px;
+height: 16px;
+background: url(images/add.png) no-repeat left top;
+cursor:pointer;
+}
+
+.botonDerecha
+{
+position:absolute;
+right:2px;
+top:2px;
+width: 16px;
+height: 16px;
+}
+
+.botonCerrar
+{
+position:absolute;
+right:4px;
+top:4px;
+width: 16px;
+height: 16px;
+background: url(images/cancel.png) no-repeat left top;
+cursor:pointer;
+z-index:10;
+}
+
+.botonEditar
+{
+width: 16px;
+height: 16px;
+margin-right: 2px;
+background: url(images/edit.png) no-repeat left top;
+cursor:pointer;
+float:left;
+z-index:10;
+}
+
+.saveButton
+{
+background: url(images/table_save.png) no-repeat left top;
+width: 16px;
+height: 16px;
+z-index:10;
+}
+
+.botonGuardar
+{
+width: 16px;
+height: 16px;
+margin-right: 2px;
+background: url(images/table_save.png) no-repeat left top;
+cursor:pointer;
+float:left;
+z-index:10;
+}
+
+.cancelButton
+{
+width: 16px;
+height: 16px;
+background: url(images/cancel.png) no-repeat left top;
+z-index:10;
+}
+
+.botonCancelar
+{
+width: 16px;
+height: 16px;
+margin-right: 2px;
+background: url(images/cancel.png) no-repeat left top;
+cursor:pointer;
+float:left;
+z-index:10;
+}
+
+.botonBorrar
+{
+width: 16px;
+height: 16px;
+margin-right: 2px;
+background: url(images/delete.png) no-repeat left top;
+cursor:pointer;
+float:left;
+z-index:10;
+}
+
+.areaNuevoFichero
+{
+position:absolute;
+width:85%;
+height:100px;
+top:5%;
+left:5%;
+z-index:100;
+background-color: white;
+padding-top: 30px;
+padding-left: 20px;
+border: 2px solid #4444AA;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.fecha
+{
+width: 80px;	
+	}
+	
+input[type="text"].fecha
+{
+width: 80px;	
+	}
+
+input[type="text"].number
+{
+width: 100px;	
+	}
+	
+.number
+{
+width: 100px;	
+	}
+	
+input[type="text"].hora
+{
+width: 50px;	
+	}
+	
+.hora
+{
+width: 50px;	
+	}
+
+input[type="text"].pequenumber
+{
+width: 50px;	
+	}
+
+.pequenumber
+{
+width: 50px;	
+	}
+	
+input[type="text"].fechaHora
+{
+width: 120px;	
+	}
+	
+.fechaHora
+{
+width: 120px;	
+	}
+
+.lineaFichero
+{
+position:relative;
+margin: 3px 3px 15px 3px;
+background-color: #EEEEEE;	
+padding:4px 0px 4px 4px;
+	}
+
+.tipoFichero
+{
+padding-left: 30px;	
+min-height:22px;
+padding-top: 2px;
+	}
+
+.pdf
+{
+	background: url(images/pdf.png) no-repeat left top;
+	}
+	
+.doc
+{
+	background: url(images/doc.png) no-repeat left top;
+	}
+
+.docx
+{
+	background: url(images/doc.png) no-repeat left top;
+	}
+	
+.jpg
+{
+	background: url(images/jpg.png) no-repeat left top;
+	}
+	
+.png
+{
+	background: url(images/png.png) no-repeat left top;
+	}
+
+.rar
+{
+	background: url(images/rar.png) no-repeat left top;
+	}
+
+.txt
+{
+	background: url(images/txt.png) no-repeat left top;
+	}
+
+.xls
+{
+	background: url(images/xls.png) no-repeat left top;
+	}
+
+.xlsx
+{
+	background: url(images/xlsx.png) no-repeat left top;
+	}
+
+.zip
+{
+	background: url(images/zip.png) no-repeat left top;
+	}
+
+.msg
+{
+	background: url(images/msg.png) no-repeat left top;
+	}
+
+.tituloFichero
+{
+font-size:1.1em;	
+	}	
+
+.fechaFichero
+{
+padding-left:20px;
+font-size:0.8em;
+color:#888;	
+	}
+
+.tagsFichero
+{
+padding-left:20px;
+	}
+
+.lineaEtiquetas
+{
+margin:0px!important;
+padding-left:18px;
+background: url(images/tag_blue.png) no-repeat left center;
+min-height:20px;
+}	
+	
+.submit
+	{
+	margin-left:70px;
+	height: 20 px;
+	background-image: url("images/fondoTitulo.png");
+	color:white;
+	font-size:1.4em;
+	border: 1px #3E5BB3 solid;
+	cursor:pointer;
+	}
+	
+.submit:hover {
+	border: 1px #09881C solid;
+	color: #09881C;
+	} 
+	
+.botonSubmit
+{
+cursor:pointer;
+position:relative;
+width: 40%;
+margin-top: 10px;
+margin-bottom:5px;
+margin-left: 20%;
+min-height: 20px;
+text-align:center;
+-moz-border-radius: 5px;
+border-radius: 5px;
+font-size: 14px;
+font-weight: bold;
+color: #4444AA;
+border: 2px solid #4444AA;
+padding-top:2px;
+background-color: #FFFFCC;
+}
+
+.botonSubmit:hover
+{
+background-color: #CCFFFF;
+border-color:navy;
+color: navy;
+}
+	
+.overTxtLabel {
+  color: #888888;
+}
+
+.validation-failed {
+  border-color: #ff0000;
+  background-color: #ffdddd;
+}
+
+.validation-advice {
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.formTextoGrande input
+{
+width: 220px;
+}
+
+.formTextoGrande textarea
+{
+width: 220px;
+height: 45px;
+}
+	
+	
+.sideForm
+{margin-bottom:5px;}
+
+
+.sideForm .grupoInputs {
+    margin:0px 2px;
+    float:left; 
+}
+
+.sideForm .lineaInputs
+{
+margin-bottom:10px;	
+	}
+
+
+.sideForm input
+{
+width:180px;
+font-size:12px;
+	}
+
+.sideForm .inputFichero
+{
+width:auto;
+font-size:12px;
+	}	
+
+
+.sideForm .submit
+	{
+	margin-left:50px;
+	width:75px;
+	height: 16 px;
+	background-image: url("images/fondoTitulo.png");
+	color:navy;
+	font-size:14px;
+	border: 1px #3E5BB3 solid;
+	cursor:pointer;
+	}
+	
+.sideForm .submit:hover {
+	border: 1px navy solid;
+	color:white;
+	} 
+
+.bigForm label
+{
+width: 120px;
+float:left;
+background-color:#01A9DB;
+color: white;
+padding-left:5px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.mainForm
+{margin-bottom:5px;}
+
+.mainForm legend
+	{
+	text-align:center;
+	color: #01A9DB;
+	font-size:14px;
+	margin-left:20px;
+	}
+
+.mainForm label {
+    width:110px;
+    line-height:16px;
+    padding-left:5px;
+    float:left;
+    background-color:#eef;
+    color: #01A9DB;    
+    font-size:12px;
+    display:block;
+	text-align:right;
+	padding-right: 1px;
+	margin-right: 3px;
+}
+
+.mainForm fieldset {
+	position:relative;
+	border: 1px solid #ccc;
+	padding:10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+	
+.mainForm .mensaje
+{
+	position:absolute;
+	margin:0px;
+	padding:5px;
+	width: 90%;
+	height:16px;
+	bottom:0px;
+	left:5%;
+	text-align: center;
+  	border: 1px solid #0000ff;
+  	background-color: #ddddff;
+  	font-size: 13px;
+  	color: #0000ff;
+	display:none;
+	z-index:100;
+}
+
+
+.botonLink
+{
+cursor:pointer;
+padding-left:15px;
+padding-right:15px;
+color:navy;
+z-index:10;
+}
+
+.botonLinkSeleccionado
+{
+font-weight:bold;
+border:1px solid green;
+}
+
+.botonLink:hover
+{
+color:purple;
+text-decoration:underline;
+}
+
+.lineaBotones
+{
+width:90%;
+margin-left:5%;
+text-align:center;
+margin-top:15px;
+margin-bottom:10px;
+height:31px;
+}
+
+.simbolo
+{
+padding-left:6px;
+font-size:0.9em;
+color: #003300;
+}
+
+.barraSimpleBotones
+{
+width:90%;
+margin-left:5%;
+text-align:center;
+height:22px;
+background-color:#ddd;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.botonSave
+{
+padding:8px 12px;
+background-color: #4444CC;
+color:white;
+font-size:15px;
+cursor:pointer;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.botonSave:hover
+{
+background-color: #5555DD;
+font-weight:bold;
+}

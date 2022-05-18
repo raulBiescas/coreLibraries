@@ -1,0 +1,382 @@
+.thumbGalleryItem
+{
+float:left;
+max-height:150px;
+margin-left:20px;
+margin-top:20px;
+cursor:pointer;
+}
+
+.iconoFoto
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/camera.png) no-repeat;
+}
+
+.iconoAddFoto
+{
+width:16px;
+height:16px;
+background: url(images/camera_add.png) no-repeat;
+}
+
+.direccionFoto
+{
+position:absolute;
+width:22px;
+height:22px;
+bottom:0px;
+left:49%;
+z-index:49;
+}
+
+.pictureSelection
+{
+padding-left:27px;
+background: url(images/camera.png) no-repeat 5px 0px;
+}
+.punteroFoto
+{
+cursor:pointer;
+}
+
+.fotoResaltada
+{
+border:2px solid red;
+}
+
+.elementoFoto
+{
+z-index:100;
+}
+
+
+.areaViewTitle
+{
+width:100%;
+height:20px;
+margin-top:10px;
+background-color:#444;
+color:white;
+position:relative;
+}
+
+.areaViewTitle span
+{
+padding-left:15px;
+}
+
+.areaViewTitle .imageControls
+{
+position:absolute;
+left:150px;
+height:18px;
+top:2px;
+width:100px;
+}
+
+.imageControls .botonEditarImagenes 
+{
+positio:absolute;
+left:2px;
+}
+
+.imageControls .noValidPicturesButton
+{
+position:absolute;
+left:80px;
+top:0px;
+}
+
+.areaViewTitle .botonLink
+{
+color:yellow;
+position:absolute;
+right:2px;
+top:0px;
+}
+
+.iconoFoto.nuevaFoto
+{
+border:2px solid red;
+}
+
+.punteroResaltado
+{
+border:1px solid green!important;
+}
+
+.nuevaFoto
+{
+z-index:102!important;
+}
+
+.mensajeFormPicture
+{
+	position:absolute;
+	width: 90%;
+	height:88%;
+	bottom:4%;
+	left:4%;
+	padding:1%;
+	text-align: center;
+  	border: 1px solid #0000ff;
+  	background-color: #ddddff;
+  	font-size: 13px;
+  	color: #0000ff;
+	z-index:100;
+}
+
+.cabeceraFotos
+{
+position:absolute;
+width:100%;
+height:10%;
+top:0px;
+left:0px;
+}
+
+.marcoFotos
+{
+position:absolute;
+width:100%;
+height:80%;
+top:10%;
+left:0px;
+text-align:center;
+overflow:hidden;
+}
+
+.sinNavegacion
+{
+height:88%!important;
+}
+
+.navegacionFotos
+{
+position:absolute;
+width:100%;
+height:10%;
+top:90%;
+left:0px;
+}
+
+.contenedorFoto
+{
+position:absolute;
+height:100%;
+top:0px;
+width:100%;
+left:0px;
+}
+
+.fotoEnMarco
+{
+height:100%;
+cursor:pointer;
+}
+
+.fotoNav
+{
+position:absolute;
+z-index:50;
+width:15%;
+top:0px;
+height:100%;
+}
+
+.toLeft
+{
+left:0%;
+}
+
+.toRight
+{
+right:0%;
+}
+
+
+.zoomSelect
+{
+position:absolute;
+width:26px;
+height:16px;
+left:49%;
+top:5px;
+background: url(images/zoom.png) no-repeat left center;
+cursor:pointer;
+padding-left:20px;
+color:yellow;
+}
+
+.dir00
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir0.png) no-repeat;
+}
+
+.dir045
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir45.png) no-repeat;
+}
+
+.dir090
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir90.png) no-repeat;
+}
+
+.dir135
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir135.png) no-repeat;
+}
+
+.dir180
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir180.png) no-repeat;
+}
+
+.dir225
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir225.png) no-repeat;
+}
+
+.dir270
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir270.png) no-repeat;
+}
+
+.dir315
+{
+position:absolute;
+width:16px;
+height:16px;
+background: url(images/dir315.png) no-repeat;
+}
+
+.espacioBotonesImagen 
+{
+width:20px;
+height:100px;
+background-color:white;
+}
+
+.enRack
+{
+position:absolute;
+right:5px;
+z-index:1000;
+}
+
+.botonEditarImagenes
+{
+width: 16px;
+height: 16px;
+background: url(images/edit.png) no-repeat left top;
+cursor:pointer;
+}
+
+.enGaleria
+{
+position:relative;
+float:left;
+margin-top:20px;
+}
+
+.rotateClockwise
+{
+position:absolute;
+width:16px;
+height:16px;
+top:30px;
+background: url(images/rotate_clockwise.png) no-repeat;
+cursor:pointer;
+left:2px;
+}
+
+.rotateAnticlockwise
+{
+position:absolute;
+width:16px;
+height:16px;
+top:50px;
+background: url(images/rotate_anticlockwise.png) no-repeat;
+cursor:pointer;
+left:2px;
+}
+
+.imageDelete
+{
+position:absolute;
+width:16px;
+height:16px;
+top:70px;
+background: url(images/delete.png) no-repeat;
+cursor:pointer;
+left:2px;
+}
+
+.hiddenWhileNewPicture
+{
+display:none;
+}
+
+#thumbarea{
+	overflow: auto; 
+	overflow-y: hidden; 
+	overflow-x: auto;
+	width:100%; 
+	margin:0px; 
+	padding:0px;
+	border-bottom: 4px solid #333333;
+}
+#thumbareaContent{
+	padding-left:0px; 
+	padding-right:0px; 
+	margin:0px; 
+ 	white-space: nowrap;       /* important */	
+}
+#thumbareaContent img{
+	padding:0px;
+    margin:0px;
+	margin-right:4px;
+	cursor:pointer;
+    border: 1px solid #ffffff;
+}
+
+.picturesDateSeparator
+{
+background-color:purple;
+color:white;
+padding-left:5px;
+padding-right:5px;
+padding-top:10px;
+padding-bottom:10px;
+float:left;
+margin-left:3px;
+margin-right:3px;
+margin-top:20px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}

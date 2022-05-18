@@ -1,0 +1,556 @@
+.tablaDiv
+{
+	}
+
+.lineaTitulo
+{
+margin-top:3px;
+	}
+
+.celda
+{
+float:left;
+position:relative;
+overflow: hidden;
+max-height: 36px;
+padding:3px;
+line-height: 18px;
+font-size: 13px;	
+border-right: 1px solid #01A9DB;
+border-top:1px dotted #01A9DB;
+word-wrap:break-word;
+	}
+
+.cabeceraLista
+{
+background: url(images/bullet_blue.png) no-repeat left center;
+padding-left: 20px;
+}
+
+.celdaLista
+{
+border-width:0px!important;
+}	
+
+.mensajeLineaActualizada
+{
+position:absolute;
+z-index:10;
+top:1px;
+left:5px;
+height:18px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.mensajeOK
+{
+color:#04B404;
+background-color:#D0F5A9;
+}
+
+.mensajeError
+{
+color:#DF013A;
+background-color:#F6CEF5;
+}
+
+.titulo
+{
+color: #01A9DB;
+width: 130px;
+text-align: center;
+height:36px;
+background-color: #EEE;	
+text-decoration:bold;
+	}
+
+.controles
+{
+width: 40px;
+background-color: #DDD;	
+display:none;
+	}
+	
+.infoAdicional
+{
+position:absolute;
+width:16px;
+height:16px;
+right:1px;
+bottom:1px;
+background: url(images/infoAdicional.png) no-repeat;
+cursor:pointer;
+}
+	
+.alturaDoble
+{
+height:36px;
+}		
+	
+
+.tbodyOld
+{
+max-height:300px; 	
+	}
+
+.lineaDatos
+{	
+position:relative;
+	}
+
+.datos
+{
+width: 130px;	
+	}
+	
+.celdaNumero
+{
+width:90px !important;
+}
+
+.celdaNumero input
+{
+width: 70px !important;
+}
+
+.celdaFecha
+{
+width:100px !important;
+}
+
+.celdaFecha input
+{
+width: 80px !important;
+}
+
+.celdaDecimal
+{
+width:120px !important;
+}
+
+.celdaDecimal input
+{
+width: 90px !important;
+}
+
+.textoPeque
+{
+width:100px !important;
+}
+
+.textoMini
+{
+width:50px !important;
+}
+
+.textoMini input
+{
+width: 40px !important;
+}
+
+.textoPeque input
+{
+width: 90px !important;
+}
+
+.textoMedio
+{
+width:150px !important;
+}
+
+.textoMedio input
+{
+width: 140px !important;
+}
+
+.textoMedio textarea
+{
+width: 140px !important;
+height: 40px !important;
+}
+
+.textoGrande
+{
+width:220px !important;
+}
+
+.textoGrande input
+{
+width: 210px !important;
+}
+
+.textoGrande textarea
+{
+width: 210px !important;
+height: 40px !important;
+}
+
+.textoExtraGrande
+{
+width:400px !important;
+}
+
+.textoExtraGrande input
+{
+width: 350px !important;
+}
+
+.textoExtraGrande textarea
+{
+width: 350px !important;
+height: 40px !important;
+}
+
+.anchuraPeque
+{
+width:100px !important;
+}
+
+.anchuraGrande
+{
+width:200px !important;
+}
+
+.anchuraExtraGrande
+{
+width:250px !important;
+}
+
+.extraPeque
+{
+width:60px !important;
+}
+
+.centrado
+{
+text-align:center;
+}
+
+.lineaGrupo
+{
+position:relative;
+background-color:#eee;
+border-top: 1px solid #444;
+margin-top:5px;
+}
+
+.lineaGrupo.lineaSegundoGrupo
+{
+border-top: 0px;
+background-color:#f2f986;
+}
+
+.lineaGrupo .celda
+{
+width:300px!important;
+border:0px!important;
+padding-left:50px;
+color:navy;
+font-size:14px;
+}
+
+.controlesGrupo
+{
+position:absolute;
+left:2px;
+top:0px;
+width:50px;
+height:20px;
+z-index:20;
+}
+
+.botonMostrarGrupo
+{
+width:16px;
+height:16px;
+background: url(images/add.png) no-repeat;
+cursor:pointer;
+}
+
+.botonOcultarGrupo
+{
+width:16px;
+height:16px;
+background: url(images/delete.png) no-repeat;
+cursor:pointer;
+}
+
+.textoGrupo
+{
+float:left;
+}
+
+.botonEliminar
+{
+float:left;
+margin-left:30px;
+width:16px;
+height:16px;
+background: url(images/cross.png) no-repeat;
+cursor:pointer;
+}
+
+.iconoLista
+{
+margin-left:5px;
+width:20px;
+height:20px;
+float:left;
+}
+
+.ocultoGrupo
+{
+display:none;
+}
+
+.ocultoFiltrado
+{
+display:none;
+}
+
+.ocultoFiltrado0
+{
+display:none;
+}
+
+.ocultoFiltrado1
+{
+display:none;
+}
+
+.ocultoFiltrado2
+{
+display:none;
+}
+
+.ocultoFiltrado3
+{
+display:none;
+}
+
+.ocultoFiltrado4
+{
+display:none;
+}
+
+.ocultoFiltrado5
+{
+display:none;
+}
+
+.ocultoFiltrado6
+{
+display:none;
+}
+
+.ocultoFiltrado7
+{
+display:none;
+}
+
+.ocultoFiltrado8
+{
+display:none;
+}
+
+.ocultoFiltrado9
+{
+display:none;
+}
+
+.funcionesTabla
+{
+padding-left:10px;
+padding-right:10px;
+background-color: #F5FA98;
+height:3px;
+width:52px;
+overflow:hidden;
+}
+
+.funcionesTablaSup
+{
+-moz-border-top-left-radius: 5px;
+-moz-border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+margin-left:20px;
+padding-top:5px;
+}
+
+.funcionTabla
+{
+width:16px;
+height:16px;
+float:left;
+margin-right:5px;
+margin-left:5px;
+cursor:pointer;
+}
+
+.toExcel
+{
+background: url(images/toExcel.png) no-repeat;
+}
+
+.botonTablaFiltrada
+{
+float:left;
+padding:2px;
+background-color: #DDF;
+color: navy;
+margin-left:15px;
+cursor:pointer;
+border:1px solid navy;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.botonTablaFiltrada:hover
+{
+background-color: navy;
+color: white;
+}
+
+.cuentaGrupoTabla
+{
+padding-left:10px;
+}
+
+.activeDragLine
+{
+border:1px solid navy!important;
+z-index:100;
+opacity:0.5;
+}
+
+.droppableLine
+{
+margin-bottom:20px;
+}
+
+.inDropLine
+{
+border:2px solid navy!important;
+background-color:#ccccff;
+}
+
+.draggableLine
+{
+cursor:move;
+}
+
+.symbolTable
+{
+padding:3px;
+background-color:navy;
+color:white;
+font-size:9px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.referencesNewLine
+{
+border:1px solid #ccccff;
+margin:10px 3%;
+width:93%;
+padding-top:2px;
+}
+
+.referencesNewLine .lineaInputs
+{
+display:inline;
+float:left;
+width:33%;
+}
+
+.orderSelectionBlock
+{
+position:absolute;
+cursor:pointer;
+width:16px;
+height:32px;
+top:0px;
+right:1px;
+z-index:10;
+}
+
+.orderSelectionAsc
+{
+position:absolute;
+width:16px;
+height:16px;
+top:0px;
+right:0px;
+background: url(images/orderAsc.png) no-repeat;
+}
+
+.orderSelectionDesc
+{
+position:absolute;
+width:16px;
+height:16px;
+top:16px;
+right:0px;
+background: url(images/orderDesc.png) no-repeat;
+}
+
+.filterTableBlock
+{
+position:absolute;
+width:32px;
+height:32px;
+top:6px;
+left:1px;
+z-index:10;
+}
+
+.filterTableButton
+{
+position:absolute;
+width:16px;
+height:16px;
+top:0px;
+left:8px;
+background: url(images/filter.png) no-repeat;
+cursor:pointer;
+}
+
+.filterTableResults
+{
+position:absolute;
+width:32px;
+height:16px;
+top:16px;
+left:0px;
+font-size:8px;
+color:orange;
+}
+
+.filterTableOptions
+{
+margin-top:10px;
+}
+
+.botonLink.tableFilterSelection
+{
+color:orange;
+}
+
+.tableFilterSelection.tableFilterDisabled
+{
+text-decoration:line-through;
+}
+
+.filterOptionsLine
+{
+margin-left:5px;
+margin-top:8px;
+}
+
+.tablaDivSelectedLine
+{
+border:3px solid navy;
+}

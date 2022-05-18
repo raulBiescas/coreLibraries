@@ -1,0 +1,82 @@
+.lineaDatos
+{
+margin-top:1px;
+}
+
+
+.nivel0
+{
+background-color: #EEFFFF; 
+margin-left:10px;
+}
+
+.nivel1
+{
+background-color: #FFEEFF; 
+margin-left:20px;
+}
+
+.nivel2
+{
+background-color: #FFFFEE; 
+margin-left:30px;
+}
+
+.nivel3
+{
+background-color: #EEEEFF; 
+margin-left:40px;
+}
+
+.nivel4
+{
+background-color: #e3f3f3;
+margin-left:50px;
+}
+
+.nivel5
+{
+background-color: #f3e3f3;
+margin-left:60px;
+}
+
+.nivel6
+{
+background-color: #f3f3e3;
+margin-left:70px;
+}
+
+.nivel7
+{
+background-color: #e3e3f3; 
+margin-left:80px;
+}
+
+.menuNiveles
+{
+float:left;
+margin-left:10px;
+width: 16px;
+height:16px;
+border-top:1px dotted #01A9DB;
+}
+
+.espacioMenuNiveles
+{
+float:left;
+margin-left:10px;
+width: 16px;
+height:16px;
+}
+
+.mostrarNiveles
+{
+background-image:url(images/add.png);
+cursor:pointer;
+}
+
+.ocultarNiveles
+{
+background-image:url(images/delete.png);
+cursor:pointer;
+}

@@ -1,0 +1,291 @@
+.contenedorBarra
+{
+position:absolute;
+width:100%;
+height:10%;
+top:0px;
+left:0px;
+}
+
+.contenedorTabs
+{
+position:absolute;
+width:100%;
+height:96%;
+top:3%;
+left:0px;
+overflow:auto;
+}
+
+.barraTabs
+{
+position:absolute;
+left:0px;
+width:100%;
+bottom:1px;
+height:20px;
+line-height:17px;
+font-size:13px;
+border-bottom:1px solid navy;
+}
+
+.tabPrincipal
+{
+float:left;
+padding-top:0px;
+height:14px;
+border-left:1px solid #888;
+border-top:1px solid #888;
+border-right:1px solid #888;
+color:#888;
+-moz-border-top-radius: 4px;
+border-top-radius: 4px;
+margin-left:3px;
+margin-right:3px;
+margin-top:4px;
+padding-left:5px;
+padding-right:5px;
+cursor:pointer;
+}
+
+.tabPrincipal:hover
+{
+color:#444;
+}
+
+.tabPrincipal.seleccionada
+{
+height:17px!important;
+padding-top:3px!important;
+border-left:1px solid navy!important;
+border-top:1px solid navy!important;
+border-right:1px solid navy!important;
+color:navy!important;
+margin-top:0px!important;
+}
+
+.autoselectArea
+{
+position:absolute;
+z-index:16000;
+background-color:#aaa;
+overflow:hidden;
+}
+
+.autoselectArea .lineaDatos
+{
+border-bottom:1px solid white;
+height:40px!important;
+margin-bottom:3px;
+font-size:10px!important;
+line-height:19px!important;
+color:white!important;
+}
+
+.autoselectArea .lineaDatos:hover
+{
+background-color:navy;
+cursor:pointer;
+color:yellow;
+}
+
+.scrollActionArea
+{
+position:absolute;
+width:100%;
+height:44px;
+z-index:100;
+left:0px;
+}
+
+.dragCorner
+{
+position:absolute;
+width:20px;
+height:20px;
+z-index:100;
+cursor:move;
+}
+
+.finderBlock
+{
+margin:10px 2%;
+border:1px solid #eee;
+width:96%;
+}
+
+.finderTitle
+{
+margin:5px 2%;
+padding:2px 2%;
+width:92%;
+background-color:#ccffcc;
+color:purple;
+}
+
+.finderTitle .botonLink
+{
+color:navy!important;
+}
+
+.finderLine
+{
+margin:3px 2%;
+padding:2px 2%;
+width:92%;
+}
+
+.mainFinderLine
+{
+background-color:#ddffdd;
+}
+
+.labelFinder
+{
+float:left;
+width:120px;
+font-weight:bold;
+color:#444;
+}
+
+.finderInputBlock
+{
+padding-left:10px;
+float:left;
+width:170px;
+}
+
+.finderInputBlock .tag
+{
+cursor:pointer;
+}
+
+.finderInputBlock input
+{
+width:130px;
+}
+
+.finderButton
+{
+min-height:20px;
+padding-left:40px;
+background: url(images/search.png) no-repeat right center;
+cursor:pointer;
+}
+
+.selectionMenuLine
+{
+	width:80%;
+	margin-left:10%;
+	background-color:#ccc;
+	color: #333;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align:center;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-bottom:10px;
+	cursor:pointer;
+	min-height:20px;
+}
+
+.selectionMenuLine.selectedMenu
+{
+background-color:#D0FA58;
+color: purple;	
+font-weight:bold;
+}
+
+
+.stepLine
+{
+position:absolute;
+width:100%;
+overflow:hidden;
+height:30px;	
+top:0px;
+left:0px;
+border-bottom:1px solid white;
+}
+.popUpInternalContent.stepsAbove
+{
+height:auto;
+top:35px;
+bottom:0px;	
+}
+
+.popUpInternalContent
+{
+position:absolute;
+width:100%;
+overflow:hidden;
+height:100%;	
+top:0px;
+left:0px;		
+}
+
+.stepItem
+{
+float:left;
+height:22px;
+margin-top:4px;
+padding-top:2px;
+padding-left:10px;
+padding-right:10px;
+border:1px solid white;
+color:white;
+cursor:pointer;
+}
+
+.stepItem.currentStep
+{
+border:2px solid #ffff00;
+margin-top:2px;
+height:23px;
+padding-top:2px;
+font-weight:bold;
+color:#ffff00;
+}
+
+.stepContent
+{
+position:absolute;
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+}
+
+.stepBlocker
+{
+position:absolute;
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+z-index:10;
+opacity: 0.7;
+filter: alpha(opacity=70); /* For IE8 and earlier */
+background-color:#eee;
+}
+
+.redoButton
+{
+border:1px solid red;
+width:20%;
+height:20%;
+position:absolute;
+left:40%;
+top:10%;
+text-align:center;
+padding-top:20px;
+color:red;
+font-size:20px;
+cursor:pointer;
+}
+
+.redoButton:hover
+{
+border:2px solid red;	
+font-size:22px;
+}

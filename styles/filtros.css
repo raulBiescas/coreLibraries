@@ -1,0 +1,145 @@
+#areaFiltroPpal
+{
+position:relative;
+margin:5px;
+background-color: #DDD;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.tituloFiltro
+{
+width: 80%;
+margin-top:10px;
+margin-left:10%;
+margin-bottom:10px;
+height: 20px;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+border-bottom: 2px solid white;
+}
+
+.lineaFiltro
+{
+width: 95%;
+margin:5px 2%;
+min-height:25px;
+padding-left: 1px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #eeeeee;
+}
+
+.botonFiltro
+{
+cursor:pointer;
+position:relative;
+width: 50%;
+margin-top: 10px;
+margin-bottom:5px;
+margin-left: 20%;
+height: 20px;
+text-align:center;
+-moz-border-radius: 5px;
+border-radius: 5px;
+font-size: 14px;
+font-weight: bold;
+color: #333399;
+border: 2px solid #333399;
+background-color: #CCFFFF;
+padding-top:2px;
+}
+
+.relojCorriendo
+{
+background-color: #FFFF99;
+}
+
+.botonFiltro:hover
+{
+background-color: #333399;
+color: white;
+}
+
+.relojFiltro
+{
+position:absolute;
+width: 10px;
+height: 20px;
+top:2px;
+right: 1px;
+padding-left: 17px;
+background: url(images/reloj.png) no-repeat 0px 0px;
+display:none;
+font-size: 11px;
+}
+
+.filtroSeleccionado
+{
+
+border: 2px solid #339933;
+}
+
+.filtroCambiado
+{
+border: 2px solid #993333 !important;
+}
+
+#areaFiltroPpal .nombreFiltro
+{
+padding-top: 3px;
+float:left;
+width:50px;
+font-size:10px;
+text-align:right;
+padding-right:2px;
+}
+
+.filtroSeleccionado .nombreFiltro
+{
+font-weight:bold;
+}
+
+#areaFiltroPpal .espacioSelect
+{
+float:left;
+}
+
+#areaFiltroPpal select
+{
+
+}
+
+.imagenTituloFiltro
+{
+padding-left:30px;
+}
+
+#filtrosLocales
+{
+position:relative;
+margin:5px;
+background-color: #F5FA98;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.lineaFiltroLocal
+{
+padding-left:10px;
+}
+
+.filterResults
+{
+margin:10px 5px 10px 5px;
+text-align:center;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid purple;
+}
+

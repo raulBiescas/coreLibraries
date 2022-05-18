@@ -1,0 +1,36 @@
+.contenedorBuscador
+{
+background-color: #ffffdd;
+-moz-border-radius: 8px;
+border-radius: 8px;
+padding:5px;
+}
+
+.lineaSupBuscador
+{
+min-height:20px;
+padding-left:30px;
+background: url(images/search.png) no-repeat left center;
+}
+
+.inputBuscador
+{
+width:100px;
+color: #FF6600;
+}
+
+.resultsBuscador
+{
+margin-top:5px;
+}
+
+.lineaResBuscador
+{
+color:#FF6600;
+cursor:pointer;
+}
+
+.seleccionBusqueda
+{
+background-color:yellow;
+}
