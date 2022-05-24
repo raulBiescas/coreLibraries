@@ -41,30 +41,29 @@ Javascript (lib folder):
 - TablasDiv: Javascript functions to support owned table formatting and related features.
 
 PHP (phpLib folder):
-- ActualizarDatos
-- Books
-- BorrarDatos
-- Calendar
-- CrearDocumento
-- csvExport
-- Estadisticas
-- Etiquetas
-- Filtros
-- Formularios
-- Funciones
-- FuncionesFecha
-- FuncionesRepresentacion
-- GIS
-- Graficas
-- Historia
-- Images
-- LineaTiempos
-- Mapas
-- Niveles
-- Pictures
-- RemoteConnection
-- Sql
-- Tablas
-- TablasDiv
-- UpdateEtiquetas
-- Utils
+- ActualizarDatos: PHP Functions to update database information.
+- Books: PHP functions to generate book components to track documentation associated to entities.
+- BorrarDatos: PHP Functions to delete database registers.
+- Calendar: PHP Functions supporting date features.
+- CrearDocumento: PHP Functions to deal with file upload processing.
+- csvExport: PHP Functions to allow csv exportation from selected data.
+- Estadisticas: PHP functions to generate stats components.
+- Etiquetas: PHP Functions supporting tagging features.
+- Filtros: PHP Functions supporting data filtering features.
+- Formularios: PHP functions to generate forms.
+- Funciones: Several general purpose PHP functions.
+- FuncionesFecha: Several date related PHP functions.
+- FuncionesRepresentacion: PHP formatting functions for tables.
+- GIS: Several geographical coordinates related PHP functions.
+- Graficas: PHP functions to generate charts components.
+- Historia: PHP functions to generate history components to track changes on different entities.
+- LineaTiempos: PHP functions to generate timelines.
+- Mapas: PHP functions to generate OpenLayers map components.
+- Niveles: PHP functions to add levels to tables.
+- Pictures: PHP functions to generate picture compoenents and image processing.
+- RemoteConnection: PHP functions to get remote data.
+- Sql: Several database related PHP functions.
+- Tablas: PHP functions to generate simple tables.
+- TablasDiv: PHP functions to generate owned formatted tables.
+- UpdateEtiquetas: PHP functions for updatting database tag information.
+- Utils: Some PHP useful functions.
